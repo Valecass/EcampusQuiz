@@ -4,5 +4,1810 @@
     "degree": "Ingegneria Informatica e dell’Automazione (D.M. 270/04)",
     "teacher": "Piersanti Roberto"
   },
-  "questions": []
+  "questions": [
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 1,
+      "question": "Che cos'è la rappresentazione in virgola mobile?",
+      "options": [
+        "È una rappresentazione numerica che permette di rappresentare numeri con una precisione fissa, indipendentemente dalla grandezza",
+        "È una rappresentazione numerica in cui i numeri sono espressi come frazioni di interi",
+        "È una rappresentazione numerica in cui il punto decimale è fisso e non si sposta",
+        "È una rappresentazione numerica che permette di rappresentare numeri con una base e un esponente variabili, consentendo di rappresentare numeri molto grandi o molto piccoli"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 2,
+      "question": "Quando si verifica l'overflow?",
+      "options": [
+        "Quando il risultato di una moltiplicazione è zero",
+        "Quando un numero è troppo piccolo per essere rappresentato",
+        "Quando il valore di un numero supera la capacità massima che può essere rappresentata in un calcolatore",
+        "Quando un numero è troppo grande per essere visualizzato ma non per essere memorizzato"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 3,
+      "question": "Quando si verifica l'underflow?",
+      "options": [
+        "Quando il valore di un numero è troppo piccolo per essere rappresentato in un formato di precisione limitata",
+        "Quando il risultato di una divisione è maggiore di uno",
+        "Quando un numero diventa infinito",
+        "Quando un numero è troppo grande per essere rappresentato"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 4,
+      "question": "Che cos'è la precisione di macchina?",
+      "options": [
+        "È la precisione che una macchina utilizza per rappresentare numeri interi",
+        "È la differenza tra il valore rappresentato da una calcolatore e il valore reale di un numero",
+        "È la capacità di una macchina di calcolare operazioni in virgola fissa",
+        "È il numero massimo di operazioni che una macchina può eseguire in un secondo"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 5,
+      "question": "In un calcolatore è possibile implementare in modo esatto operazioni aritmetiche?",
+      "options": [
+        "Sì, se si utilizza la rappresentazione in virgola mobile",
+        "Sì, se si utilizza la rappresentazione in virgola fissa",
+        "Sì, perché le operazioni aritmetiche sono eseguite in modo esatto su ogni tipo di calcolatore",
+        "No, a causa dei limiti di precisione delle rappresentazioni numeriche, non è possibile ottenere risultati esatti"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 6,
+      "question": "Che cos'è un metodo numerico?",
+      "options": [
+        "Un algoritmo per ottenere una soluzione approssimata a quella esatta con un numero finito di operazioni",
+        "Un algoritmo per ottenere una soluzione esatta con un numero finito di operazioni",
+        "Un algoritmo per ottenere una soluzione esatta con un numero infinito di operazioni",
+        "Un algoritmo per ottenere una soluzione approssimata a quella esatta con un numero infinito di operazioni"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 7,
+      "question": "Qual è il significato di affrontare e risolvere un problema matematico utilizzando un metodo numerico?",
+      "options": [
+        "Raggiungere una soluzione esatta utilizzando un numero finito di operazioni logiche e aritmetiche",
+        "Trovare una soluzione analitica attraverso un processo illimitato di calcoli",
+        "Trovare una soluzione approssimata tramite un numero illimitato di operazioni logiche e aritmetiche",
+        "Ottenere una soluzione approssimativa con un numero limitato di passaggi logici e aritmetici"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 8,
+      "question": "Qual è lo scopo di risolvere un problema matematico attraverso un metodo numerico?",
+      "options": [
+        "Ricavare una soluzione esatta con un numero finito di operazioni matematiche",
+        "Ricavare una soluzione approssimata a quella analitica utilizzando un numero infinito di operazioni matematiche",
+        "Ricavare una soluzione approssimata a quella analitica mediante un numero finito di operazioni matematiche",
+        "Ricavare una soluzione analitica in forma chiusa su un calcolatore"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 001",
+      "lessonNumber": 1,
+      "questionNumber": 9,
+      "question": "Che cos'è la rappresentazione in virgola fissa?",
+      "options": [
+        "È una rappresentazione numerica che utilizza un sistema di esponenti e mantissa per rappresentare i numeri",
+        "È una rappresentazione numerica che consente di utilizzare solo numeri interi",
+        "È una rappresentazione in cui il punto decimale è fissato in una posizione e non può essere spostato",
+        "È una rappresentazione che permette di rappresentare numeri frazionari senza alcuna limitazione di precisione"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 1,
+      "question": "Qual'è l'equivalente in base 2 del numero decimale (ovvero base 10) 13?",
+      "options": [
+        "(1010) in base 2",
+        "(1101) in base 2",
+        "(1111) in base 2",
+        "(1011) in base 2"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 2,
+      "question": "Quante sono le cifre significative del numero 0,00458?",
+      "options": [
+        "Quattro",
+        "Sei",
+        "Due",
+        "Tre"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 3,
+      "question": "Quante sono le cifre significative del numero 5,6700*10^3?",
+      "options": [
+        "Cinque",
+        "Tre",
+        "Quattro",
+        "Due"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 4,
+      "question": "Qual'è l'equivalente in base 10 del numero binario (ovvero base 2) 11011?",
+      "options": [
+        "(27) in base 10",
+        "(25) in base 10",
+        "(23) in base 10",
+        "(31) in base 10"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 5,
+      "question": "Il troncamento è più preciso dell'arrotondamento?",
+      "options": [
+        "Sì, perché il troncamento porta a risultati sempre più piccoli di quelli corretti",
+        "Sì, perché il troncamento conserva sempre più informazioni rispetto all'arrotondamento",
+        "No, perché il troncamento elimina più informazioni rispetto all'arrotondamento, che tenta di mantenere la precisione",
+        "No, il troncamento e l'arrotondamento sono equivalenti in termini di precisione"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 6,
+      "question": "Qual'è l'equivalente in base 10 del numero binario (ovvero base 2) 10110?",
+      "options": [
+        "(18) in base 10",
+        "(23) in base 10",
+        "(20) in base 10",
+        "(22) in base 10"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 7,
+      "question": "Qual'è l'equivalente in base 2 del numero decimale (ovvero base 10) 25?",
+      "options": [
+        "(11001) in base 2",
+        "(11110) in base 2",
+        "(10010) in base 2",
+        "(10100) in base 2"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 8,
+      "question": "Gli zeri sono sempre cifre significative?",
+      "options": [
+        "Sì, gli zeri sono sempre considerati cifre significative in tutte le situazioni",
+        "No, gli zeri a sinistra di un numero non sono significativi, ma quelli tra le altre cifre o a destra di un numero decimale lo sono",
+        "No, gli zeri sono significativi solo se si trovano all'inizio di un numero",
+        "Sì, gli zeri sono sempre significativi, indipendentemente dalla loro posizione"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 9,
+      "question": "Quando si verifica un errore di arrotondamento?",
+      "options": [
+        "Quando un numero decimale non può essere rappresentato esattamente in doppia precisione",
+        "Quando un numero viene approssimato al valore più vicino, tenendo conto delle cifre successive che vengono eliminate",
+        "Quando il valore rappresentato è troppo grande per il calcolatore",
+        "Quando si sommano numeri troppo grandi in una rappresentazione numerica"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 002",
+      "lessonNumber": 2,
+      "questionNumber": 10,
+      "question": "Quando si verifica un errore di troncamento?",
+      "options": [
+        "Quando il risultato di un calcolo viene approssimato abbassando il valore senza considerare i numeri successivi",
+        "Quando un numero viene rappresentato con più decimali rispetto alla precisione del calcolatore",
+        "Quando una rappresentazione numerica esegue un'operazione di divisione senza restituire il risultato decimale",
+        "Quando un numero viene approssimato verso l'alto per ottenere un risultato intero"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 1,
+      "question": "Passando da doppia a singola precisione, gli errori di troncamento si attenuano?",
+      "options": [
+        "No, perché si perde precisione nella rappresentazione dei numeri",
+        "No, ma solo in presenza di numeri negativi",
+        "Sì, perché si riduce il numero di cifre e quindi il calcolo è più semplice",
+        "Sì, solo se i numeri sono piccoli"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 2,
+      "question": "Quando le perturbazioni sui dati causano un impatto sostanziale sul risultato, il problema matematico viene definito:",
+      "options": [
+        "Precondizionato",
+        "Mal condizionato",
+        "Stabile",
+        "Ben condizionato"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 3,
+      "question": "Quando le perturbazioni sui dati causano un impatto sostanziale sul risultato, il metodo numerico viene definito:",
+      "options": [
+        "Instabile",
+        "Stabile",
+        "Precondizionato",
+        "Ben condizionato"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 4,
+      "question": "Passando da doppia a singola precisione, gli errori di troncamento si amplificano?",
+      "options": [
+        "Sì, ma solo in presenza di numeri positivi",
+        "No, perché la singola precisione è più stabile",
+        "No, rimangono invariati",
+        "Sì, perché si riduce il numero di cifre utilizzabili, aumentando l’approssimazione"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 5,
+      "question": "Quando un sistema lineare è ben condizionato?",
+      "options": [
+        "Quando il sistema ammette più di una soluzione",
+        "Quando piccole variazioni nei dati di ingresso producono grandi variazioni nella soluzione",
+        "Quando piccole variazioni nei dati di ingresso producono piccole variazioni nella soluzione",
+        "Quando grandi variazioni nei dati di ingresso producono piccole variazioni nella soluzione"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 6,
+      "question": "Passando da singola a doppia precisione, gli errori di troncamento si amplificano?",
+      "options": [
+        "Sì, perché si introduce più complessità nei calcoli",
+        "No, rimangono invariati",
+        "No, perché la doppia precisione riduce gli errori di rappresentazione",
+        "Sì, perché si usano più cifre decimali"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 7,
+      "question": "Passando da singola a doppia precisione, gli errori di troncamento si attenuano?",
+      "options": [
+        "Sì, perché la doppia precisione consente una rappresentazione più accurata dei numeri",
+        "Sì, ma solo nel caso di numeri reali",
+        "No, aumentano perché si usano numeri più grandi",
+        "No, rimangono invariati"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 8,
+      "question": "Aumentando il numero di cifre significative trattabili con il calcolatore, gli errori di troncamento si attenuano?",
+      "options": [
+        "No, gli errori di troncamento aumentano sempre",
+        "Sì, ma solo se si usano numeri reali",
+        "Il numero di cifre significative non influenza il troncamento",
+        "Sì, perché si riesce a rappresentare i numeri con maggiore precisione"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 003",
+      "lessonNumber": 3,
+      "questionNumber": 9,
+      "question": "Quando un sistema lineare è mal condizionato?",
+      "options": [
+        "Quando il sistema non ammette soluzione",
+        "Quando grandi variazioni nei dati di ingresso provocano grandi variazioni nella soluzione",
+        "Quando piccole variazioni nei dati di ingresso provocano piccole variazioni nella soluzione",
+        "Quando piccole variazioni nei dati di ingresso provocano grandi variazioni nella soluzione"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 1,
+      "question": "Quanto vale la traccia della matrice nulla?",
+      "options": ["1", "Dipende dall'ordine della matrice", "0", "n"],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 2,
+      "question": "Qual è la definizione di matrice definita positiva?",
+      "options": [
+        "Una matrice che è uguale alla sua trasposta",
+        "Una matrice che è uguale alla sua trasposta e che soddisfa (x^T)*A*x>0 per ogni vettore non nullo x",
+        "Una matrice con solo numeri positivi sopra la diagonale",
+        "Una matrice simmetrica con autovalori maggiori uguali a zero"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 3,
+      "question": "Cos'è una matrice simmetrica?",
+      "options": [
+        "Una matrice che è uguale alla sua inversa",
+        "Una matrice che è uguale alla sua trasposta",
+        "Una matrice che ha solo valori zero",
+        "Una matrice che ha solo valori positivi sulla diagonale principale"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 4,
+      "question": "Data A=[3, 2, 8; 5, 1, 0; 0, 2, 9], calcolare la matrice trasposta.",
+      "options": [
+        "[3, 5, 0; 2, 1, 2; 8, 0, 9]",
+        "Non è possibile calcolare la trasposta di A",
+        "[3, 2, 8; 5, 1, 0; 0, 2, 9]",
+        "[3, 5, 0; 2, 2, 2; 8, 9, 0]"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 5,
+      "question": "Che cos'è una matrice tridiagonale?",
+      "options": [
+        "Una matrice quadrata che ha solo tre gruppi di elementi non nulli: la diagonale, la sotto-diagonale e la sopra-diagonale",
+        "Una matrice quadrata che ha gli elementi diagonali non nulli",
+        "Una matrice che ha solo tre gruppi di elementi nulli: la diagonale, la sotto-diagonale e la sopra-diagonale",
+        "Una matrice tre per tre che ha solo tre gruppi di elementi non nulli: la diagonale, la sotto-diagonale e la sopra-diagonale"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 6,
+      "question": "Quale tra le seguenti è una matrice diagonale?",
+      "options": [
+        "[0, 0, 4; 0, 5, 0; 6, 0, 0]",
+        "[1, 0, 0; 0, 5, 0; 0, 0, 8]",
+        "[0, 3, 3; 3, 0, 3; 3, 3, 0]",
+        "[1, 3, 6; 2, 1, 7; 3, 4, 1]"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 7,
+      "question": "Individuare tra le seguenti matrici, la matrice diagonale?",
+      "options": [
+        "[1, 1, 1; 1, 1, 1; 1, 1, 1]",
+        "[0, 0, 4; 0, 5, 0; 6, 0, 0]",
+        "[3, 0, 0; 0, 5, 0; 0, 0, 8]",
+        "[1, 3, 3; 3, 1, 0; 0, 0, 7]"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 8,
+      "question": "Individuare tra le seguenti matrici, la matrice triangolare inferiore?",
+      "options": [
+        "[2, 1, 2; 0, 5, 8; 0, 0, 1]",
+        "[1, 2, 3; 0, 1, 0; 1, 0, 0]",
+        "[1, 2, 3; 0, 1, 0; 0, 0, 1]",
+        "[5, 0, 0; 0, 7, 0; 5, 0, 1]"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 9,
+      "question": "Individuare tra le seguenti matrici, la matrice triangolare superiore?",
+      "options": [
+        "[0, 3, 0; 1, 3, 0; 3, 1, 2]",
+        "[3, 0, 1; 0, 2, 0; 1, 0, 1]",
+        "[1, 0, 1; 0, 3, 1; 0, 0, 2]",
+        "[0, 3, 5; 0, 0, 4; 0, 1, 0]"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 10,
+      "question": "Che cos'è una matrice triangolare inferiore?",
+      "options": [
+        "Una matrice triangolare inferiore è una matrice quadrata in cui tutti gli elementi al di sopra della diagonale principale sono uguali a zero",
+        "Una matrice triangolare inferiore è una matrice quadrata in cui tutti gli elementi al di sotto della diagonale principale sono uguali a zero",
+        "Una matrice triangolare inferiore è una matrice in cui tutti gli elementi sotto della diagonale principale sono negativi",
+        "Una matrice triangolare inferiore è una matrice in cui tutti gli elementi sopra della diagonale principale sono positivi"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 11,
+      "question": "Che cos'è una matrice triangolare superiore?",
+      "options": [
+        "Una matrice triangolare superiore è una matrice in cui tutti gli elementi sopra della diagonale principale sono positivi",
+        "Una matrice triangolare superiore è una matrice quadrata in cui tutti gli elementi al di sotto della diagonale principale sono uguali a zero",
+        "Una matrice triangolare superiore è una matrice in cui tutti gli elementi sotto della diagonale principale sono negativi",
+        "Una matrice triangolare superiore è una matrice quadrata in cui tutti gli elementi al di sopra della diagonale principale sono uguali a zero"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 12,
+      "question": "Come si calcola la matrice trasposta?",
+      "options": [
+        "La matrice trasposta di una matrice si ottiene scambiando tra loro le colonne",
+        "La matrice trasposta di una matrice si ottiene scambiando tra loro le righe",
+        "La matrice trasposta di una matrice si ottiene scambiando le righe con le colonne",
+        "La matrice trasposta di una matrice si ottiene moltiplicando la matrice per se stessa"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 13,
+      "question": "Data A=[5, 1, 3; 6, 7, 0; 3, 3, 8], calcolare la matrice trasposta.",
+      "options": [
+        "Non è possibile calcolare la trasposta di A",
+        "[3, 1, 5; 0, 7, 6; 8, 3, 3]",
+        "[5, 6, 3; 1, 7, 3; 3, 0, 8]",
+        "[3, 3, 8; 6, 7, 0; 5, 1, 3]"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004",
+      "lessonNumber": 4,
+      "questionNumber": 14,
+      "question": "Quanto vale il rango della matrice unità di ordine n?",
+      "options": [
+        "1",
+        "Dipende dall'ordine della matrice",
+        "n",
+        "0"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 15,
+      "question": "Determinare il rango della matrice A = [1, 1; 2, 2; 3, 3]",
+      "options": ["3", "4", "2", "1"], "correct": 4
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 16,
+      "question": "Cos'è la traccia di una matrice?",
+      "options": [
+        "La traccia di una matrice è il minimo ordine dei minori non nulli presenti nella matrice",
+        "La traccia di una matrice è la somma degli elementi posti sulla diagonale principale presi in valore assoluto",
+        "La traccia di una matrice è il massimo ordine dei minori non nulli presenti nella matrice",
+        "La traccia di una matrice è la somma degli elementi posti sulla diagonale principale"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 17,
+      "question": "Come si calcola il minore di una matrice?",
+      "options": [
+        "Calcolando il determinante della matrice intera",
+        "Sommando tutti gli elementi della matrice",
+        "Calcolando il determinante della sottomatrice ottenuta eliminando una riga e una colonna",
+        "Moltiplicando la matrice per la sua trasposta"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 18,
+      "question": "Determinare il rango della matrice A =[1, 0, 3; 2, -1, 4; 3, 2, 1]",
+      "options": ["1", "0", "2", "3"], "correct": 4
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 19,
+      "question": "Determinare il rango della matrice A = [0, 1; 0, 0; 1, 0; 0, 1]",
+      "options": ["0", "2", "4", "1"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 20,
+      "question": "Che cosa rappresenta l’ordine di una matrice?",
+      "options": [
+        "Il numero totale di elementi nella matrice",
+        "Il numero di righe della matrice",
+        "Il numero di colonne della matrice",
+        "Il numero di righe e colonne della matrice"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 21,
+      "question": "Calcolare la traccia della matrice A=[2, 1, 3, 0; 4, 5, 6, 1; 1, 0, 7, 2; 0, 1, 8, -3]",
+      "options": ["6", "9", "11", "17"], "correct": 4
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 22,
+      "question": "Calcolare la traccia della matrice trasposta di A=[2, 3, 0; 1, 1, 4; 5, 6, 7]",
+      "options": ["5", "10", "0", "6"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 23,
+      "question": "Quanto vale il rango di una matrice singolare?",
+      "options": [
+        "Non si può calcolare il rango di una matrice singolare",
+        "0",
+        "Può variare da 0 a n-1, dove n è l'ordine della matrice",
+        "n-1"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 24,
+      "question": "Supponendo che la traccia della somma di due matrici risulti uguale a 15, ovvero tr(A+B)=15, quanto vale tr(B+A)?",
+      "options": ["15", "0", "Non è possibile calcolare la traccia", "-15"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 25,
+      "question": "Supponendo che la traccia del prodotto di due matrici risulti uguale a tr(AB)=30, quanto vale tr(BA)?",
+      "options": ["30", "L'operazione di traccia non è commutativa", "-30", "0"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 004", "lessonNumber": 4, "questionNumber": 26,
+      "question": "Cos'è il rango di una matrice?",
+      "options": [
+        "Il rango di una matrice è il minimo ordine dei minori non nulli presenti nella matrice",
+        "Il rango di una matrice è la somma degli elementi posti sulla diagonale principale",
+        "Il rango di una matrice è la somma degli elementi posti sulla diagonale principale presi in valore assoluto",
+        "Il rango di una matrice è il massimo ordine dei minori non nulli presenti nella matrice"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 1,
+      "question": "Date le seguenti matrici A=[3, 2, 0; 0, 8, 1; -8, -4, -1] e B=[8, 8, 0; 1, 1, 1; -4, 0, -1], quanto vale la matrice C=-3*A+B?",
+      "options": [
+        "C=[-1, 1, 0; 1, -23, 0; 22, 13, 3]",
+        "C=[-9, 8, 0; 1, -24, -4; 25, 12, 1]",
+        "C=[-1, 2, 0; 1, -23, -2; 20, 12, 2]",
+        "C=[-3, 4, 0; 0, -23, -2; 20, 14, 1]"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 2,
+      "question": "Data una matrice A di dimensione n e la matrice nulla O della stessa dimensione, quanto vale la matrice B=A*O?",
+      "options": [
+        "Una matrice identica ad A, ma con gli elementi sulla diagonale principale aumentati di uno",
+        "La matrice A stessa",
+        "Una matrice con elementi tutti pari a 1",
+        "Una matrice nulla"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 3,
+      "question": "Data una matrice A di dimensione n e la matrice nulla O della stessa dimensione, quanto vale la matrice B=A+O?",
+      "options": [
+        "Una matrice con solo elementi uguali a 1",
+        "Una matrice identità",
+        "Una matrice nulla",
+        "La matrice A stessa"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 4,
+      "question": "Data una matrice A di dimensione n e la matrice identità I della stessa dimensione, quanto vale la matrice B=A+I?",
+      "options": [
+        "Una matrice identica ad A, ma con gli elementi sulla diagonale principale aumentati di uno",
+        "Una matrice con tutti gli elementi aumentati di uno",
+        "Una matrice A con tutti gli elementi duplicati",
+        "Una matrice nulla"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 5,
+      "question": "Dati i vettori a=[3, 2] e b=[-2, 1], quanto valgono la loro somma e la loro differenza?",
+      "options": [
+        "a+b=[1, 3]; a-b=[5, -1]",
+        "a+b=[1, 3]; a-b=[0, 0]",
+        "a+b=[1, 3]; a-b=[5, 1]",
+        "a+b=[-1, 3]; a-b=[5, -1]"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 6,
+      "question": "Dati i vettori a=[1, -3] e b=[-2, 5], calcolare il loro prodotto scalare.",
+      "options": ["17", "0", "-17", "5"], "correct": 3
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 7,
+      "question": "Dati i seguenti vettori a=[3, 8, -1] e b=[4, -8, -3], quanto vale il loro prodotto scalare?",
+      "options": ["-49", "49", "Il loro prodotto scalare è definito sempre positivo", "-41"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 8,
+      "question": "Data la traccia del prodotto di due matrici tr(BC)=8, quanto vale tr(CB)?",
+      "options": ["0", "8", "Non si può calcolare", "-8"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 9,
+      "question": "Date le seguenti matrici A=[2, 3, -1; 0, -5, 4] e B=[3, 1, 0; 2, 3, -1], quanto vale la matrice A+B?",
+      "options": [
+        "A+B=[5, 4, 0; 0, -2, 3]",
+        "A+B=[5, 4, -1; 2, -2, 3]",
+        "A+B=[5, 4, -1; 2, 8, 5]",
+        "A+B=[6, 3, 0; 0, -15, -4]"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 10,
+      "question": "Data una matrice A di dimensione n e la matrice identità I della stessa dimensione, quanto vale la matrice B=A*I?",
+      "options": [
+        "Una matrice con tutti gli elementi aumentati di uno",
+        "Una matrice nulla",
+        "Una matrice identica ad A, ma con gli elementi sulla diagonale principale aumentati di uno",
+        "La matrice A stessa"
+      ],
+      "correct": 4
+    }
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 11,
+      "question": "Calcolare il determinante della matrice A=[25, 11; -4, -7]",
+      "options": ["0", "131", "-131", "-175"], "correct": 3
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 12,
+      "question": "Qual è il risultato della moltiplicazione di una matrice A per la matrice unità, sommata poi alla matrice nulla?",
+      "options": [
+        "La matrice identità",
+        "La matrice A con tutti gli elementi aumentati di uno",
+        "Il risultato sarà ancora la matrice A",
+        "La matrice nulla"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 13,
+      "question": "Cosa si ottiene sommando una matrice A alla matrice identità?",
+      "options": [
+        "Una matrice che ha gli stessi elementi di A, ma con 1 aggiunto agli elementi sulla diagonale principale",
+        "La somma di una matrice A e della matrice identità raddoppia tutti gli elementi di A",
+        "Una matrice che ha gli stessi elementi di A, ma con 1 aggiunto a tutti gli elementi di A",
+        "La somma di una matrice A e della matrice identità dà come risultato una matrice nulla"
+      ], "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 14,
+      "question": "Cosa risulta dalla moltiplicazione di una matrice A per la matrice identità?",
+      "options": [
+        "La moltiplicazione di una matrice A per la matrice identità dà come risultato la matrice identità",
+        "La moltiplicazione di una matrice A per la matrice identità raddoppia ogni elemento della matrice A",
+        "La moltiplicazione di una matrice A per la matrice identità dà come risultato la matrice nulla",
+        "La moltiplicazione di una matrice A per la matrice identità restituisce la matrice A"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 15,
+      "question": "Cosa risulta dalla moltiplicazione di una matrice A per la matrice nulla?",
+      "options": [
+        "La moltiplicazione di una matrice A per la matrice nulla dà come risultato la matrice nulla",
+        "La moltiplicazione di una matrice A per la matrice nulla dà come risultato la matrice identità",
+        "La moltiplicazione di una matrice A per la matrice nulla mantiene invariata la matrice A",
+        "La moltiplicazione di una matrice A per la matrice nulla raddoppia ogni elemento di A"
+      ], "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 16,
+      "question": "Cosa risulta dalla somma di una matrice A con la sua matrice opposta?",
+      "options": [
+        "La somma di una matrice A con la sua matrice opposta restituisce la stessa matrice A",
+        "La somma di una matrice A con la sua matrice opposta è uguale alla matrice identità",
+        "La somma di una matrice A con la sua matrice opposta raddoppia ogni elemento di A",
+        "La somma di una matrice A con la sua matrice opposta è la matrice nulla"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 17,
+      "question": "Qual è il risultato della matrice A in cui tutti gli elementi sono elevati alla potenza zero?",
+      "options": [
+        "Una matrice di dimensioni identiche alla matrice originale, ma con tutti gli elementi uguali a 1",
+        "Una matrice con tutti gli elementi uguali a uno, tranne la diagonale principale, che è uguale a due",
+        "Una matrice con tutti gli elementi uguali a zero",
+        "Una matrice che mantiene gli stessi valori originali di A"
+      ], "correct": 1
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 18,
+      "question": "Calcolare la matrice C=A*(-B), dove A=[1, 2; 3, 4; 5, 6] e B=[7, 8; 9, 10]",
+      "options": [
+        "C=[25, 28; 57, 64; 89, 100]",
+        "C=[-25, -28; -57, -64; -89, -100]",
+        "Non è possibile calcolare il prodotto",
+        "C=[-25, -12; -57, 16; -89, 20]"
+      ], "correct": 2
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 19,
+      "question": "Calcolare la matrice C=A+B, dove A=[8, 4; 5, 3; 15, 3] e B=[5, 55; 2, 3; 1, -1]",
+      "options": [
+        "Non è possibile effettuare la somma dato che le due matrici non sono quadrate",
+        "C=[13, 59; 7, 6; 16, 2]",
+        "C=[13, 59; 7, 6; 16, 1]",
+        "C=[13, 7; 7, 58; 16, 2]"
+      ], "correct": 2
+    },
+    {
+      "lesson": "Lezione 005", "lessonNumber": 5, "questionNumber": 20,
+      "question": "Calcolare il determinante della matrice A=[5, 0, 1; 0, -2, 0; 4, 7, 0]",
+      "options": ["17", "0", "10", "8"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 1,
+      "question": "Calcolare il determinate del prodotto delle matrici A =[3, 0, 0, 0; 0, 3, 0, 0; 0, 0, 3, 0; 0, 0, 0, 3] e B=[1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, 1], ovvero det(AB).",
+      "options": ["1", "81", "0", "12"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 2,
+      "question": "Come si calcola il determinante di una matrice A 3x4?",
+      "options": [
+        "Dipende dalla struttura della matrice",
+        "Si effettua la somma degli elementi diagonali",
+        "Si effettua il prodotto degli elementi diagonali",
+        "Non si può calcolare il determinante in questo caso"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 3,
+      "question": "Come si definisce una matrice singolare?",
+      "options": [
+        "Una matrice singolare ha righe o colonne linearmente indipendenti",
+        "Una matrice singolare è una matrice quadrata che ha un determinante diverso da zero",
+        "Una matrice singolare ha righe linearmente dipendenti",
+        "Una matrice singolare è una matrice quadrata che ha un determinante uguale a zero"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 4,
+      "question": "Come si procede per calcolare il determinante di una matrice triangolare di ordine 5x5?",
+      "options": [
+        "Calcolando la traccia della matrice",
+        "Utilizzando la regola di Sarrus",
+        "Effettuando la somma degli elementi sulla diagonale principale",
+        "Effettuando il prodotto degli elementi sulla diagonale principale"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 5,
+      "question": "Quanto vale il determinante di una matrice 1x1 con elemento a_11=-5?",
+      "options": ["5", "0", "-5", "Non si può calcolare il determinante di uma matrice con un solo elemento"], "correct": 3
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 6,
+      "question": "Calcolare la traccia della matrice A=[3, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, -5]",
+      "options": ["-5", "-15", "0", "1"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 7,
+      "question": "Calcolare il determinante della matrice A=[5, 6, 7, -22, 22; 0, 3, 7, 12, -12; 0, 0, 6, 9, 40; 0, 0, 0, 8, 16; 0, 0, 0, 0, 1]",
+      "options": ["720", "-720", "722", "721"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 8,
+      "question": "Calcolare il determinante della matrice A=[5, 8; -4, 12]",
+      "options": ["-92", "92", "-82", "82"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 9,
+      "question": "Calcolare il determinante della matrice A=[3, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0, 0, -5]",
+      "options": ["-5", "1", "15", "-15"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 006", "lessonNumber": 6, "questionNumber": 10,
+      "question": "Calcolare il determinante della matrice A=[3, 0, 0, 0; 1, -1, 0, 0; -17, 2, 6, 0; 0, 1, 0, 5]",
+      "options": ["-92", "-90", "90", "92"], "correct": 4
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 1,
+      "question": "Calcolare la norma euclidea del vettore [2, -1, 4]",
+      "options": ["4.05", "4.58", "3.95", "6.01"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 2,
+      "question": "Quanto vale la norma del vettore [2, -3, 3]^T?",
+      "options": ["4.55", "5.55", "5.69", "4.69"], "correct": 3
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 3,
+      "question": "Quanto vale la norma del vettore [2,88; -3,58; 7,81]?",
+      "options": ["9.06", "9.15", "-9", "9"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 4,
+      "question": "Quanto vale la norma del vettore [3, 1, -8]",
+      "options": ["8.8", "8.3", "8.9", "8.6"], "correct": 3
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 5,
+      "question": "Calcolare la norma del vettore [3,14; -2,13; 8,16]",
+      "options": ["7.54", "8", "10", "8.99"], "correct": 4
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 6,
+      "question": "Calcolare la norma del vettore [1,15; 2,22; 3,14]",
+      "options": ["4.15", "4.68", "4.01", "3.45"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 7,
+      "question": "Se si elevano tutti gli elementi di una matrice A alla potenza zero che risultato si ottiene per A?",
+      "options": [
+        "La matrice identità",
+        "La matrice nulla",
+        "La matrice A",
+        "Tutti gli elementi di A sono pari a 1"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 8,
+      "question": "Due vettori sono ortogonali se:",
+      "options": [
+        "Il prodotto tra uno dei due vettori e la trasposta dell'altro vettore è positivo",
+        "Il prodotto tra uno dei due vettori e la trasposta dell'altro vettore è diverso da zero",
+        "Il prodotto tra uno dei due vettori e la trasposta dell'altro vettore è nullo",
+        "La somma tra uno dei due vettori e la trasposta dell'altro vettore è nullo"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 007", "lessonNumber": 7, "questionNumber": 9,
+      "question": "Se il prodotto scalare di due vettori è uguale a zero, allora:",
+      "options": [
+        "I due vettori sono uguali",
+        "I due vettori sono paralleli",
+        "I due vettori sono ortogonali",
+        "I due vettori hanno la stessa lunghezza"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 008", "lessonNumber": 8, "questionNumber": 1,
+      "question": "Un sistema lineare con matrice dei coefficienti diversa da zero si dice determinato se:",
+      "options": [
+        "Ammette infinite soluzioni",
+        "Ammette una sola soluzione",
+        "Ammette più di una soluzione",
+        "Ammette soluzione nulla"
+      ], "correct": 2
+    },
+    {
+      "lesson": "Lezione 008", "lessonNumber": 8, "questionNumber": 2,
+      "question": "Un sistema lineare che ammette una sola soluzione si dice:",
+      "options": ["Indeterminato", "Determinato", "Incompatibile", "Singolare"], "correct": 2
+    },
+    {
+      "lesson": "Lezione 008", "lessonNumber": 8, "questionNumber": 3,
+      "question": "Un sistema lineare si dice singolare se:",
+      "options": [
+        "Il sistema ha infinite soluzioni",
+        "La matrice dei coefficienti ha determinante uguale a zero",
+        "La matrice dei coefficienti ha determinante diverso da zero",
+        "Il sistema ha una sola soluzione"
+      ], "correct": 2
+    },
+    {
+      "lesson": "Lezione 008", "lessonNumber": 8, "questionNumber": 4,
+      "question": "Un sistema lineare si dice indeterminato se:",
+      "options": [
+        "Ha infinite soluzioni",
+        "Ha determinante uguale a zero",
+        "È incompatibile",
+        "Ha una sola soluzione"
+      ], "correct": 1
+    },
+    {
+      "lesson": "Lezione 010", "lessonNumber": 10, "questionNumber": 1,
+      "question": "In un sistema lineare se si scambiano le colonne della matrice dei coefficienti:",
+      "options": [
+        "Il sistema diventa indeterminato",
+        "Il determinante diventa zero",
+        "Il sistema rimane equivalente ma con un ordine diverso delle incognite",
+        "Il sistema diventa incompatibile"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 1,
+      "question": "Quale tra i seguenti metodi non è un metodo numerico diretto per risolvere sistemi lineari?",
+      "options": [
+        "Il metodo di Cramer",
+        "Il metodo di eliminazione di Gauss",
+        "Il metodo di sostituzione all'indietro",
+        "Il metodo di Jacobi"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 2,
+      "question": "Alla fine del metodo di eliminazione di gauss che tipo di matrice si ottiene?",
+      "options": [
+        "Una matrice triangolare superiore",
+        "Una matrice diagonale",
+        "Una matrice triangolare inferiore",
+        "Una matrice tridiagonale"
+      ], "correct": 1
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 3,
+      "question": "Quando non è conveniente utilizzzare un metodo numerico diretto?",
+      "options": [
+        "Quando si desidera una soluzione esatta",
+        "Quando il sistema ha una sola soluzione",
+        "Quando il sistema è ben condizionato e di piccole dimensioni",
+        "Quando il sistema è mal condizionato o di grandi dimensioni"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 4,
+      "question": "Quando è conveniente utilizzzare un metodo numerico diretto?",
+      "options": [
+        "Quando si desidera una soluzione approssimata",
+        "Quando il sistema è ben condizionato e di piccole dimensioni",
+        "Quando il sistema è mal condizionato",
+        "Quando il sistema ha molte soluzioni"
+      ], "correct": 2
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 5,
+      "question": "Per una matrice di grandi dimensioni è più costoso il metodo di Cramer o il metodo di eliminazione di Gauss?",
+      "options": [
+        "Il metodo di Cramer è più costoso",
+        "Nessuno dei due metodi è costoso",
+        "Entrambi i metodi sono ugualmente costosi",
+        "Il metodo di eliminazione di Gauss è più costoso"
+      ], "correct": 1
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 6,
+      "question": "Qual'è l'ultima operazione del metodo di eliminazione di Gauss?",
+      "options": [
+        "Ottenere la matrice in forma triangolare inferiore e risolvere il sistema con sostituzione all'indietro",
+        "Ottenere la matrice in forma triangolare superiore e risolvere il sistema con sostituzione all'indietro",
+        "Ottenere la matrice in forma triangolare inferiore e risolvere il sistema con sostituzione in avanti",
+        "Ottenere la matrice in forma triangolare superiore e risolvere il sistema con sostituzione in avanti"
+      ], "correct": 2
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 7,
+      "question": "Che succede nel metodo di eliminazione di Gauss se tutti i pivot sono non nulli?",
+      "options": [
+        "Il determinante della matrice diventa zero",
+        "Il sistema è incompatibile",
+        "Il sistema ha una soluzione unica",
+        "Il sistema ha infinite soluzioni"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 8,
+      "question": "Che succede nel metodo di eliminazione di Gauss se un pivot è nullo?",
+      "options": [
+        "Il sistema ha infinite soluzioni",
+        "Il determinante della matrice diventa infinito",
+        "Il sistema non può essere risolto senza modifiche al metodo di Gauss",
+        "Il sistema diventa immediatamente compatibile"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 9,
+      "question": "Per una matrice di dimensione 100, è più efficiente il metodo di Cramer o il metodo di eliminazione di Gauss?",
+      "options": [
+        "Nessuno dei due metodi è efficiente",
+        "Il metodo di Cramer è più efficiente",
+        "Entrambi i metodi hanno la stessa efficienza",
+        "Il metodo di eliminazione di Gauss è più efficiente"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 10,
+      "question": "Dato il sistema Ax=b dove A=[1 3 1; 3 -2 3; 2 -1 -3] e b=[3; -3; 2]. Risolverlo con il metodo di eliminazione di Gauss.",
+      "options": ["Richiede calcoli operativi"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 11,
+      "question": "Dato il sistema Ax=b dove A=[-2 4 8; -4 1 -1; -6 2 -20] e b=[1; -2; 1] Risolverlo con il metodo di eliminazione di Gauss.",
+      "options": ["Richiede calcoli operativi"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 12,
+      "question": "Dato il sistema Ax=b dove A=[1 -1 3; -3 2 1; 3 1 0] e b=[-1; 1; 1] Risolverlo con il metodo di eliminazione di Gauss.",
+      "options": ["Richiede calcoli operativi"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 13,
+      "question": "Dato il sistema Ax=b dove A=[2 -1 1 -2; 0 2 0 -1; 1 0 -2 1; 0 2 1 1] e b=[0 1 0 1] Eseguire il primo passo con il metodo di eliminazione di Gauss.",
+      "options": ["Richiede calcoli operativi"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 011", "lessonNumber": 11, "questionNumber": 14,
+      "question": "Dato il sistema Ax=b dove A=[0 2 3; 4 5 8; 7 8 1] e C=[1 5 4] Risolverlo con il metodo di eliminazione di Gauss.",
+      "options": ["Richiede calcoli operativi"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 012", "lessonNumber": 12, "questionNumber": 1,
+      "question": "In cosa consiste la strategia di Pivoting totale nel metodo di eliminazione di Gauss?",
+      "options": [
+        "Consiste nel scegliere il massimo valore assoluto solo tra le righe",
+        "Consiste nel scegliere il massimo valore assoluto solo tra le colonne",
+        "Consiste nel mantenere fisso il pivot e non eseguire alcun scambio di righe o colonne",
+        "Consiste nel scegliere il massimo valore assoluto tra tutti gli elementi della matrice e scambiarlo con l'elemento del pivot, sia tra le righe che tra le colonne"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 012", "lessonNumber": 12, "questionNumber": 2,
+      "question": "In cosa consiste la strategia di Pivoting parziale nel metodo di eliminazione di Gauss?",
+      "options": [
+        "Consiste nell'azzerare tutti gli elementi sopra il pivot",
+        "Consiste nel moltiplicare ogni riga per il valore del pivot",
+        "Consiste nel scambiare le righe solo quando il pivot è uguale a zero",
+        "Consiste nel scegliere il massimo valore assoluto tra gli elementi sotto il pivot e scambiarlo con la riga corrente"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 012", "lessonNumber": 12, "questionNumber": 3,
+      "question": "La propagazione degli errori in un metodo numerico: cos'è, quando si verifica e come si può intervenire.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 1,
+      "question": "Qual'è la condizione sulla matrice di partenza per poter applicare il metodo di Cholesky?",
+      "options": [
+        "La matrice deve essere triangolare inferiore",
+        "La matrice deve essere tridiagonale",
+        "La matrice deve essere simmetrica e definita positiva",
+        "La matrice deve avere determinante non nullo"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 2,
+      "question": "Quale metodo diretto per la risoluzione dei sistemi lineari permette di calcolare facilmente il determinante?",
+      "options": [
+        "Metodo di Newton",
+        "Metodo di Jacobi",
+        "Fattorizzazione LU",
+        "Metodo del gradiente"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 3,
+      "question": "Quale tra i seguenti metodi è adatto per risolvere più sistemi lineari con la stessa matrice dei coefficienti ma diversi vettori dei termini noti?",
+      "options": [
+        "Metodo di Jacobi",
+        "Metodo di bisezione",
+        "Fattorizzazione LU",
+        "Metodo di Cholesky"
+      ], "correct": 3
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 4,
+      "question": "Tra tutti i metodi numerici diretti per la risoluzione di un sistema lineare presentati nel corso, qual'è quello che richiede meno operazioni?",
+      "options": [
+        "Il metodo di Newton",
+        "Il metodo di Gauss",
+        "Fattorizzazione LU",
+        "Il metodo di Cholesky"
+      ], "correct": 4
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 5,
+      "question": "Dato il sistema lineare Ax=b dove A=[7 8 9; 4 5 6; 0 2 3] e b=[24 15 5], dopo aver determinato con il metodo di Fattorizzazione LU le seguenti matrici L=[1 0 0; 4/7 1 0; 0 14/3 1] e U=[7 8 9; 0 3/7 6/7; 0 0 -1], come si procede nella risoluzione del sistema lineare di partenza?",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 6,
+      "question": "Determinare i fattori triangolari L e U della seguente matrice dei coefficienti A=[7 1 9; 4 5 6; 0 2 3], tali che A=LU.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 7,
+      "question": "Dato il sistema lineare Ax=b dove A=[6 -3 4; 12 5 -7; -5 2 6] e b=[1 1 1], dopo aver determinato, con il metodo di Fattorizzazione LU, la seguente matrice L=[1 0 0; 2 1 0; -0,830 -0,045 1], come si procede nella risoluzione del sistema lineare di partenza?",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 8,
+      "question": "Determinare i fattori triangolari L e U della seguente matrice dei coefficienti A=[1 4 8; -4 15 16; -6 2 -20], tali che A=LU.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 9,
+      "question": "Calcolare il determinante della matrice dei coefficienti A=[1 0 1; 1 0 2; 1 -3 -8] utilizzando il metodo di fattorizzazione LU.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 10,
+      "question": "Dato il sistema lineare Ax=b dove A=[1 -4 5; 8 5 -7; -5 2 5] e b=[1 1 1] Determinare le matrici L e U del metodo di Fattorizzazione LU.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 016", "lessonNumber": 16, "questionNumber": 11,
+      "question": "Dato un sistema lineare Ax=b, dopo aver determinato le matrici L e U, con il metodo di Fattorizzazione LU, come si procede a calcolare il vettore delle incognite x del sistema lineare di partenza?",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 017", "lessonNumber": 17, "questionNumber": 1,
+      "question": "Dato il sistema lineare Ax=b dove A=[3 1 -1; 1 1 -1; -1 -1 2] e b=[2 0 0], verificare che il metodo di Cholesky sia applicabile.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 017", "lessonNumber": 17, "questionNumber": 2,
+      "question": "Metodo di Cholesky: dato un sistema lineare Ax=b, dopo aver trovato la matrice L di Cholesky, come si procede a calcolare il vettore delle incognite x del sistema lineare di partenza?",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 017", "lessonNumber": 17, "questionNumber": 3,
+      "question": "Dato il sistema lineare Ax=b dove A=[8 4 2; 4 6 0; 2 0 3] e b=[1 1 1] Determinare la matrice L di Cholesky.",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 017", "lessonNumber": 17, "questionNumber": 4,
+      "question": "Dato il sistema lineare Ax=b dove A=[8 4 2; 4 6 0; 2 0 3] e b=[1 1 1], dopo aver determinato con il metodo di Cholesky la seguente matrice L=[2.83 0 0; 1.41 2 0; 0.71 -0.50 1.50], come si procede nella risoluzione del sistema lineare di partenza?",
+      "options": ["Risposta aperta"], "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 1,
+      "question": "Quale tra i seguenti metodi è un metodo numerico iterativo per risolvere sistemi lineari?",
+      "options": [
+        "Metodo di eliminazione di Gauss",
+        "Metodo di Cramer",
+        "Metodo di Cholesky",
+        "Metodo di Gauss Seidel"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 2,
+      "question": "Come si definisce una matrice tridiagonale?",
+      "options": [
+        "Una matrice in cui sono diversi da zero solo gli elementi della diagonale principale e della sotto-diagonale",
+        "Una matrice in cui sono diversi da zero solo gli elementi della diagonale principale e della sopra-diagonale",
+        "Una matrice in cui sono diversi da zero solo gli elementi della diagonale principale",
+        "Una matrice in cui sono diversi da zero solo gli elementi della diagonale principale e delle due diagonali adiacenti"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 3,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, 1, 0, 0; 1, 5, 1, 0; 0, 1, 6, 1; 1, 0, 1, 4] e C=[1; 7; 16; 14] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0; 0; 0; 0] e quattro cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 4,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, -1, 0, 0; -1, 4, -1, 0; 0, -1, 4, -1; -1, 0, -1, 4] e C=[-1; 2; 4; 10] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0; 0; 0; 0] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 5,
+      "question": "Dato il sistema lineare Ax=C dove A=[3, -2, 0; -2, 4, 2; 0, 2, 2] e C=[1; 4; 4] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0; 0; 0] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 6,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, 1, 0, 0; 1, 5, 1, 0; 0, 1, 6, 1; 1, 0, 1, 4] e C=[1; 7; 16; 14] Eseguire due iterazioni con il metodo di Jacobi, partendo da un vettore iniziale x(0)=[0,2500; 1,4000; 2,6667; 3,5000] e quattro cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 7,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, -1, 0, 0; -1, 4, -1, 0; 0, -1, 4, -1; -1, 0, -1, 4] e C=[-1; 2; 4; 10] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0,25; 0,44; 1,11; 2,72] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 8,
+      "question": "Dato il sistema lineare Ax=C dove A=[-4, -1, 0, 1; 0, -2, 1, 0; 0, 1, 3, 1; 0, 0, 1, -2] e C=[1; 0; 1; 2] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0; 0; 0; 0] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 9,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, -1, 0, 0; -1, 4, -1, 0; 0, -1, 4, -1; -1, 0, -1, 4] e C=[-1; 2; 4; 10] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[-0,25; 0,44; 1,11; 2,72] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 10,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, 1, 0, 0; 1, 5, 1, 0; 0, 1, 6, 1; 1, 0, 1, 4] e C=[1; 7; 16; 14] Eseguire due iterazioni con il metodo di Jacobi, partendo da un vettore iniziale x(0)=[0; 0; 0; 0] e quattro cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 11,
+      "question": "Dato il sistema lineare Ax=C dove A=[-4, -1, 0, 1; 0, -2, 1, 0; 0, 1, 3, 1; 0, 0, 1, -2] e C=[1; 0; 1; 2] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0,17; -0,25; 0,25; -0,20] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 12,
+      "question": "Dato il sistema lineare Ax=C dove A=[4, -1, 0, 0; -1, 4, -1, 0; 0, -1, 4, -1; -1, 0, -1, 4] e C=[-1; 2; 4; 10] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[0; 0; 0; 0] e due cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 13,
+      "question": "Dato il sistema lineare Ax=C dove A=[-4, -1, 0, 1; 0, -2, 1, 0; 0, 1, 3, 1; 0, 0, 1, -2] e C=[1; 0; 1; 2] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[-0,400; -0,085; 0,390; -0,800] e tre cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 14,
+      "question": "Dato il sistema lineare Ax=C dove A=[-4, -1, 0, 1; 0, -2, 1, 0; 0, 1, 3, 1; 0, 0, 1, -2] e C=[1; 0; 1; 2] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[-0,250; 0,500; -0,170; -0,085] e tre cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 019",
+      "lessonNumber": 19,
+      "questionNumber": 15,
+      "question": "Dato il sistema lineare Ax=C dove A=[ -4, -1, 0, 1; 0, -2, 1, 0; 0, 1, 3, 1; 0, 0, 1, -2] e C=[1; 0; 1; 2] Eseguire due iterazioni con il metodo di Gauss Seidel, partendo da un vettore iniziale x(0)=[ 1; 1; 1; 1] e tre cifre decimali.",
+      "options": ["Risposta aperta"],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 021",
+      "lessonNumber": 21,
+      "questionNumber": 1,
+      "question": "Qual è la condizione necessaria affinché un metodo iterativo per la risoluzione di un sistema lineare converga?",
+      "options": [
+        "Il sistema deve essere lineare",
+        "Il metodo deve essere di tipo diretto",
+        "La matrice deve essere diagonalmente dominante",
+        "La matrice deve essere simmetrica"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 1,
+      "question": "Data l'equazione non lineare f=[1, -2, 5] e l'intervallo [2, 4] quanto vale il valore di tentativo alla prima iterazione del metodo di Bisezione?",
+      "options": [
+        "2.5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 2,
+      "question": "Dopo la prima iterazione del metodo di Bisezione, dato l'intervallo [a,b], se il prodotto tra la funzione nel secondo estremo f(b), e la funzione nel nuovo valore trovato f(c), è minore di zero, qual è il nuovo intervallo da utilizzare nella iterazione successiva?",
+      "options": [
+        "[a,b]",
+        "[a,c]",
+        "[c,b]",
+        "Non è possibile trovare lo zero"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 3,
+      "question": "In quali casi il metodo di bisezione converge?",
+      "options": [
+        "Il metodo di bisezione converge sempre",
+        "Converge solo in casi particolari",
+        "Quando la derivata prima è positiva",
+        "Quando la funzione non lineare è crescente"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 4,
+      "question": "In quale condizione è possibile calcolarne lo zero della funzione non lineare con il metodo di bisezione?",
+      "options": [
+        "Quando la funzione è continua e derivabile nell'intervallo iniziale",
+        "Quando la funzione è continua e assume stesso segno nell'intervallo iniziale",
+        "Quando la funzione è continua e assume valori di segno opposto nell'intervallo iniziale",
+        "Quando la funzione è continua nell'intervallo iniziale"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 5,
+      "question": "In quali casi il metodo di falsa posizione converge?",
+      "options": [
+        "Converge solo in casi particolari",
+        "Il metodo di falsa posizione converge sempre",
+        "Quando la funzione non lineare è crescente",
+        "Quando la derivata prima è positiva"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 6,
+      "question": "Cosa è necessario per poter inizializzare il metodo di Falsa posizione?",
+      "options": [
+        "Il punto medio dell’intervallo contenente la radice",
+        "Il valore esatto della radice",
+        "Un punto iniziale qualsiasi e la derivata della funzione",
+        "Due punti iniziali"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 7,
+      "question": "Quale formula utilizza il metodo di bisezione per dividere l'intervallo [a,b] in due parti uguali?",
+      "options": [
+        "c=0.5*(b+b)",
+        "c=0.5*(a-b)",
+        "c=0.5*(a+b)",
+        "c=0.5*(a+a)"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 8,
+      "question": "Dopo la prima iterazione del metodo di Bisezione, dato l'intervallo [a,b], se il prodotto tra la funzione nel primo estremo f(a), e la funzione nel nuovo valore trovato f(c) è minore di zero, qual è il nuovo intervallo da utilizzare nella iterazione successiva?",
+      "options": [
+        "[a,c]",
+        "Non è possibile trovare lo zero",
+        "[c,b]",
+        "[a,b]"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 9,
+      "question": "Data l'equazione non lineare f=[1, -2, 5] e l'intervallo [-6, 2] quanto vale il valore di tentativo alla prima iterazione del metodo di Bisezione?",
+      "options": [
+        "-2",
+        "-4",
+        "-1",
+        "0"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 10,
+      "question": "Nel metodo di Bisezione, dato l'intervallo [a,b], se il prodotto tra la funzione nel primo estremo f(a), e la funzione nel secondo estremo f(b), è maggiore di zero:",
+      "options": [
+        "La funzione ammette uno zero positivo in [a,b]",
+        "La funzione non ammette lo zero nell'intervallo [a,b]",
+        "La funzione non ammette zeri",
+        "La funzione ammette lo zero nell'intervallo [a,b]"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 11,
+      "question": "Nel metodo di Bisezione, dato [a,b], dopo aver determinato il valore di tentativo c, nella prima iterazione come faccio a stabilire il nuovo intervallo della seconda iterazione?",
+      "options": [
+        "Si controlla se il prodotto tra la funzione in a e la funzione in c risulta positivo",
+        "Si controlla se il prodotto tra la funzione in a e la funzione in b risulta positivo",
+        "Si controlla se il prodotto tra la funzione in a e la funzione in b risulta negativo",
+        "Si controlla se il prodotto tra la funzione in a (o b) e la funzione in c risulta minore, maggiore o uguale a zero"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 12,
+      "question": "Nel metodo di Bisezione, dato l'intervallo [a,b], se il prodotto tra la funzione nel primo estremo f(a), e la funzione nel secondo estremo f(b), è minore di zero:",
+      "options": [
+        "La funzione non ammette lo zero nell'intervallo [a,b]",
+        "La funzione non ammette zeri",
+        "La funzione ammette uno zero negativo in [a,b]",
+        "La funzione ammette lo zero nell'intervallo [a,b]"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 13,
+      "question": "Data la seguente equazione non lineare f=[ 1, -1, -2] Eseguire due iterazioni con il metodo della Bisezione utilizzando come valori di partenza x1=-10 e x2=1.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 14,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, -9, 1] Eseguire due iterazioni con il metodo di Bisezione utilizzando come valori di partenza x1=2,5 e x2=3.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 15,
+      "question": "Data la seguente equazione non lineare f=[ 46, 0, 3, 1] Eseguire due iterazioni con il metodo della Bisezione utilizzando come valori di partenza x1=-4 e x2=1.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 16,
+      "question": "Nel metodo di Bisezione, quando ed in che modo si decide di interrompere le iterazioni?",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 17,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, -9, 1] Eseguire due iterazioni con il metodo di Bisezione utilizzando come valori di partenza x1=2 e x2=3.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 18,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, 0, -2] Eseguire due iterazioni con il metodo della Bisezione utilizzando come valori di partenza x1=0 e x2=2.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 022",
+      "lessonNumber": 22,
+      "questionNumber": 19,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, 0, -2] Eseguire due iterazioni con il metodo della Bisezione utilizzando come valori di partenza x1=1 e x2=2.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 1,
+      "question": "Calcolare l'errore relativo del metodo di Newton tra la prima iterazione x1= -8,0725, e la seconda iterazione x2= -8,0005.",
+      "options": [
+        "-0.072",
+        "circa 0,9%",
+        "0.072",
+        "circa -0,9%"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 2,
+      "question": "Cosa è necessario per poter inizializzare il metodo di Newton?",
+      "options": [
+        "Un punto iniziale",
+        "Un punto iniziale e la derivata della funzione",
+        "La derivata prima della funzione",
+        "Due punti iniziali"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 3,
+      "question": "Cosa è necessario per poter inizializzare il metodo della secante?",
+      "options": [
+        "Due valori iniziali distinti",
+        "Un punto iniziale",
+        "Un solo punto iniziale e la derivata della funzione",
+        "Due valori positivi"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 4,
+      "question": "In quali casi il metodo di Newton converge?",
+      "options": [
+        "Quando ci sia un flesso della funzione oppure una radice multipla",
+        "Il metodo di Newton converge sempre",
+        "Quando la funzione è decrescente",
+        "Quando la funzione è continua e derivabile, e la derivata prima non si annulla vicino alla radice"
+      ],
+      "correct": 4
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 5,
+      "question": "Quando il metodo di Newton ha problemi di convergenza?",
+      "options": [
+        "Quando la derivata prima è nulla o si annulla vicino alla radice",
+        "Quando la funzione è crescente",
+        "Il metodo di Newton Raphson converge sempre",
+        "Quando un punto di flesso si trova lontano della radice"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 6,
+      "question": "Calcolare l'errore relativo del metodo di Newton tra la prima iterazione x1= 3,0375, e la seconda iterazione x2= 3,0007.",
+      "options": [
+        "circa 5,45%",
+        "circa 2,00%",
+        "circa 1,23%",
+        "circa 3,14%"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 7,
+      "question": "Calcolare l'errore assoluto del metodo di Newton tra la prima iterazione x1= 5,25, e la seconda iterazione x2= 4,95.",
+      "options": [
+        "1%",
+        "circa 3%",
+        "0.3",
+        "-0.3"
+      ],
+      "correct": 3
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 8,
+      "question": "Data l'equazione non lineare f=[3, -5, 10] e l'intervallo [0, 8] quanto vale il valore di tentativo alla prima iterazione del metodo di Falsa Posizione?",
+      "options": [
+        "circa -0.66",
+        "circa 0.5263",
+        "circa 0.5",
+        "circa −0.5263"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 9,
+      "question": "Il metodo di Newton può incontrare problemi di convergenza quando la funzione di partenza presenta una zona con pendenza molto ridotta?",
+      "options": [
+        "No, il metodo di Newton-Raphson converge sempre, indipendentemente dalla pendenza",
+        "Sì, il metodo di Newton può avere problemi di convergenza in presenza di una pendenza molto ridotta",
+        "No, il metodo di Newton-Raphson è sempre stabile",
+        "Sì, ma solo se la funzione è crescente"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 10,
+      "question": "Nel metodo di Falsa Posizione, quando ed in che modo si decide di interrompere le iterazioni?",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 11,
+      "question": "Data la seguente equazione non lineare f=[ 1/6, 0, -1/6] Eseguire due iterazioni con il metodo della Falsa Posizione utilizzando come valori di partenza x1=0 e x2=10.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 12,
+      "question": "Data la seguente equazione non lineare f=[ 1/6, 0, -1/6] Eseguire due iterazioni con il metodo della Falsa Posizione utilizzando come valori di partenza x1=0,03 e x2= 10.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 13,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, 0, -2] Eseguire due iterazioni con il metodo della Falsa posizione utilizzando come valori di partenza x1=0 e x2=2.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 14,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, 0, -2] Eseguire due iterazioni con il metodo della Falsa posizione utilizzando come valori di partenza x1=0,5 e x2=2.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 15,
+      "question": "Data la seguente equazione non lineare f=[ 46, 0, 3, 1] Eseguire due iterazioni con il metodo della Falsa Posizione, utilizzando come valori di partenza x1= -4 e x2=1.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 16,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, -9, 1] Eseguire due iterazioni con il metodo della Falsa posizione utilizzando come valori di partenza x1=2,9 e x2=3.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 17,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, -9, 1] Eseguire due iterazioni con il metodo della Falsa posizione utilizzando come valori di partenza x1=2 e x2=3.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 18,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, 0, -2] Eseguire due iterazioni con il metodo della Falsa Bisezione utilizzando come valori di partenza x1=0 e x2=2.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    },
+    {
+      "lesson": "Lezione 023",
+      "lessonNumber": 23,
+      "questionNumber": 19,
+      "question": "Data la seguente equazione non lineare f=[ 1, 0, 0, -2] Eseguire due iterazioni con il metodo della Falsa Bisezione utilizzando come valori di partenza x1=1 e x2=2.",
+      "options": [
+        "Risposta aperta"
+      ],
+      "correct": 1
+    }
+  ]
 }

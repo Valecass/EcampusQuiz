@@ -33,14 +33,17 @@ function loadQuestion(index) {
     <h5 class="mb-4 fw-semibold text-center">${q.question}</h5>
     ${q.options.map((opt, i) => `
       <button class="answer-button" data-index="${i}">${opt}</button>
-    `).join("")}
+    `).join('')}
   `;
 
   const buttons = document.querySelectorAll(".answer-button");
   buttons.forEach(btn => {
     btn.addEventListener("click", () => {
       const selected = parseInt(btn.getAttribute("data-index"));
-      buttons.forEach(b => b.classList.add("disabled"));
+
+      // Disable all buttons
+      buttons.forEach(b => b.disabled = true);
+
       if (selected === q.correct) {
         btn.classList.add("correct");
         correctAnswers++;
@@ -70,4 +73,10 @@ nextButton.addEventListener("click", () => {
     `;
     nextButton.remove();
   }
+});
+
+const backButton = document.getElementById("backButton");
+
+backButton.addEventListener("click", () => {
+  window.location.href = "index.html";
 });

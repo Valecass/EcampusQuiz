@@ -1,7 +1,11 @@
 const courses = [
   {
     name: "Analisi Numerica\n(Docente: Piersanti Roberto)\nIngegneria Informatica e dell’Automazione",
-    file: "courses_analisi_numerica.json"
+    file: "../courses/courses_analisi_numerica.json"
+  },
+  {
+    name: "/Analisi Numerica\n(Docente: Piersanti Roberto)\nIngegneria Informatica e dell’Automazione",
+    file: "../courses/courses_analisi_numerica.json"
   }
 ];
 

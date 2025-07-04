@@ -13,4 +13,16 @@
   width: 100%;
   cursor: pointer;
   font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.answer-button.correct {
+  background-color: #28a745; /* green */
+}
+.answer-button.incorrect {
+  background-color: #dc3545; /* red */
+}
+.answer-button:disabled {
+  /*opacity: 0.6;*/
+  cursor: not-allowed;
 }
