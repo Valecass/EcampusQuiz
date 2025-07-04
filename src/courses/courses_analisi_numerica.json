@@ -1,0 +1,42 @@
+{
+  "course": {
+    "name": "Analisi Numerica",
+    "degree": "Ingegneria Informatica e dell’Automazione (D.M. 270/04)",
+    "teacher": "Piersanti Roberto"
+  },
+  "questions": [
+    {
+      "lesson": "Lezione 001",
+      "question": "Quale metodo numerico si basa sull’approssimazione della derivata per trovare zeri di una funzione?",
+      "options": [
+        "Metodo di bisezione",
+        "Metodo delle secanti",
+        "Metodo di Newton-Raphson",
+        "Metodo dei trapezi"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 002",
+      "question": "Quale tra questi metodi garantisce sempre la convergenza, se l’intervallo iniziale contiene la radice?",
+      "options": [
+        "Metodo delle tangenti",
+        "Metodo di Newton",
+        "Metodo di bisezione",
+        "Metodo delle secanti"
+      ],
+      "correct": 2
+    },
+    {
+      "lesson": "Lezione 003",
+      "question": "Qual è il principale difetto del metodo di Newton?",
+      "options": [
+        "È troppo lento",
+        "Richiede la derivata della funzione",
+        "Non funziona con funzioni continue",
+        "Non può essere implementato al computer"
+      ],
+      "correct": 1
+    }
+  ]
+}

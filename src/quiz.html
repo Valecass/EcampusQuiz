@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="d-flex align-items-center justify-content-center min-vh-100 bg-light">
+  <div class="quiz-box p-4 shadow rounded-4 bg-white">
+    <div class="mb-3 text-center">
+      <h5 id="courseTitle" class="mb-1"></h5>
+      <div class="small text-muted mb-3" id="courseInfo"></div>
+      <h6>
+        Domanda <span id="questionNumber">1</span> / <span id="totalQuestions">0</span> |
+        <span class="text-success">✅ Corrette: <span id="correctCount">0</span></span> |
+        <span class="text-danger">❌ Sbagliate: <span id="wrongCount">0</span></span>
+      </h6>
+      <hr />
+    </div>
+    <div id="quiz-container"></div>
+    <div class="text-end mt-4">
+      <button class="btn btn-primary rounded-circle" id="nextButton" disabled>
+        <span class="fs-4">→</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
